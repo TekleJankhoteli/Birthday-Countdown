@@ -1,0 +1,90 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+  *,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+main{display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    background-color: rgb(245, 183, 193);
+   
+}
+.BD{font-family: 'VT323';
+    font-weight: 400;   
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:30px;
+
+}
+.countdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 63px;
+    border:0.3px solid white;
+    border-radius: 5px;
+}
+.countdown-cifrebi{color: whitesmoke;
+    font-size: 40px;
+
+}
+.countdown-wuti,
+.countdown-dge,
+.countdown-wami,
+.countdown-saati{
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+.socmedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  /* margin-top: 70px; */
+}
+
+.hover:hover path {
+    fill: whitesmoke;
+    cursor: pointer;
+}
+.baloons{
+    margin-top: 40px;
+}
+.baloon{
+    width: 280px;
+}
+
+
+@media screen and (min-width: 1400px){
+    main{width: 100%;
+    height: 100vh;
+    }
+}
